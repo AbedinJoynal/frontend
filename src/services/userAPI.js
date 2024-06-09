@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000'; // Adjust if your backend is on a different port
+const API_URL = 'https://user-simple-crud-backend.vercel.app/'; // Adjust if your backend is on a different port
 
 const userAPI = {
     getAllUsers: async () => {
